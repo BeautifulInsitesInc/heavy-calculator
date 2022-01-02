@@ -1,4 +1,6 @@
 ﻿# Heavy Calculator
- A calculator app coded in Python with Kivy GIU
- Used to test .apk creation from Python Kivy using Buildozer
+## Simple python calculator app using Kivy
+Used to test the .apk creation using Buildozer
+
+.apk was succesfully uploaded to google play availabel for download.
 
