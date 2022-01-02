@@ -6,8 +6,11 @@ from kivy.lang import Builder
 from kivy.core.window import Window # Set size of app
 from kivy.uix.image import Image #not needed if only placing image in design file .kv
 from kivy.uix.floatlayout import FloatLayout
+from kivy.config import Config
 
-Window.size = (500,700)
+#Window.size = (500,700)
+#os.environ["fullscreen"] = 'auto'
+Config.set('graphics', 'window_state', 'minimized')
 
 Builder.load_file('heavy_calculator.kv')
 
